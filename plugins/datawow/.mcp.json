@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "datawow": {
+      "type": "http",
+      "url": "https://ai.datawow.de/mcp"
+    }
+  }
+}

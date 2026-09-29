@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "datawow",
+  "description": "DataWow für KI-Assistenten: DataWow-Daten direkt im Chat abfragen und auswerten.",
+  "version": "0.2.0",
+  "owner": {
+    "name": "DataWow",
+    "email": "support@datawow.de",
+    "url": "https://datawow.de"
+  },
+  "plugins": [
+    {
+      "name": "datawow",
+      "source": "./plugins/datawow",
+      "description": "Controlling-Assistent für den Onlinehandel: Umsatz, Deckungsbeiträge, Bestand, Retouren sowie Auswertungen nach Wetter und Zensusdaten.",
+      "author": {
+        "name": "DataWow",
+        "email": "support@datawow.de",
+        "url": "https://datawow.de"
+      },
+      "category": "analytics"
+    }
+  ]
+}
