@@ -2,7 +2,7 @@
   "name": "datawow",
   "displayName": "DataWow",
   "description": "Controlling-Assistent für den Onlinehandel: Umsatz, Deckungsbeiträge, Bestand, Retouren sowie Auswertungen nach Wetter und Zensusdaten.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "DataWow",
     "email": "support@datawow.de",

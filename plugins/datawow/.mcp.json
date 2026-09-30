@@ -2,7 +2,8 @@
   "mcpServers": {
     "datawow": {
       "type": "http",
-      "url": "https://ai.datawow.de/mcp"
+      "url": "https://ai.datawow.de/mcp",
+      "timeout": 120000
     }
   }
 }
