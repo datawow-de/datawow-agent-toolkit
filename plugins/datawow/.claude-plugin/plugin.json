@@ -2,7 +2,7 @@
   "name": "datawow",
   "displayName": "DataWow",
   "description": "Controlling-Assistent für den Onlinehandel: Umsatz, Deckungsbeiträge, Bestand, Retouren sowie Auswertungen nach Wetter und Zensusdaten.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": {
     "name": "DataWow",
     "email": "support@datawow.de",
@@ -10,6 +10,9 @@
   },
   "homepage": "https://datawow.de",
   "repository": "https://github.com/datawow-de/datawow-agent-toolkit",
+  "license": "UNLICENSED",
+  "icon": "./icon.svg",
+  "privacyPolicyUrl": "https://account.datawow.de/app/legal/privacy-policy",
   "keywords": [
     "controlling",
     "ecommerce",

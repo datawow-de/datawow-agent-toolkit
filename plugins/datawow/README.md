@@ -17,3 +17,7 @@ Die Skills werden automatisch genutzt, wenn eine Frage dazu passt.
 Das Plugin bringt den DataWow-Connector mit (`.mcp.json`). Beim ersten Zugriff öffnet Claude die DataWow-Anmeldung im Browser; danach bleibt die Verbindung bestehen.
 
 Das Datenmodell, die Begriffe und die kundenspezifischen Merkmale liefert der Connector zur Laufzeit. Sie sind bewusst nicht im Plugin enthalten, weil sie je Kunde abweichen.
+
+## Datenverarbeitung
+
+Das Plugin führt selbst keinen Code aus. Es stellt Skills bereit und verbindet sich ausschließlich mit dem DataWow-MCP-Server unter `https://ai.datawow.de/mcp` (HTTP, OAuth-Anmeldung). Dorthin werden die aus dem Gespräch abgeleiteten Abfragen gesendet; von dort kommen die ausgewerteten Daten zurück. Es werden keine weiteren externen Dienste kontaktiert und keine Dateien heruntergeladen oder lokal ausgeführt. Datenschutz: [account.datawow.de/app/legal/privacy-policy](https://account.datawow.de/app/legal/privacy-policy).
